@@ -24,7 +24,7 @@ function App() {
   //   </div>
   // );
 
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(true);
 
   useEffect(() => {
     const authStatus = localStorage.getItem("auth") === "true";

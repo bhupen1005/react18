@@ -12,6 +12,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mantine/core": "^6.0.21",
+    "@mantine/dates": "^6.0.21",
+    "@mantine/dropzone": "^6.0.21",
+    "@mantine/form": "^6.0.21",
+    "@mantine/hooks": "^6.0.21",
+    "@mantine/modals": "^6.0.21",
+    "@mantine/notifications": "^6.0.21",
+    "@mantine/nprogress": "^6.0.21",
+    "@mantine/spotlight": "^6.0.21",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@hookform/resolvers": "^3.3.2",

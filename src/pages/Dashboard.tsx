@@ -1,4 +1,4 @@
-import { Button, Title, TypographyStylesProvider } from "@mantine/core";
+import { Button, Title } from "@mantine/core";
 import { Outlet, Link } from "react-router-dom";
 
 const Dashboard = () => {

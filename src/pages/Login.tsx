@@ -14,7 +14,7 @@ const Login = () => {
     }
   }, []);
 
-  const handleLogin = (e: any) => {
+  const handleLogin = () => {
     localStorage.setItem("auth", "true");
     navigate("/dashboard/profile");
   };

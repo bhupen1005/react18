@@ -1,14 +1,4 @@
-import React, { useState } from "react";
-import { RouterProvider } from "react-router-dom";
-import { createBrowserRouter } from "react-router-dom";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
-import Dashboard from "./pages/Dashboard";
-import Profile from "./pages/Profile";
-import Settings from "./pages/Settings";
-import MantineUi from "./pages/MantineUi";
-import MantineUiV6 from "./pages/MantineUiV6";
-import MantineUiV7 from "./pages/MantineUiV7";
+import { useState } from "react";
 import BasicRouter from "./routes/basicRouter";
 import NestedRouter from "./routes/nestedRouter";
 import CreateBrowserRouter from "./routes/createBrowserRouter";

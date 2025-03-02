@@ -1,5 +1,5 @@
 import { Alert, Divider, Tabs } from "@mantine/core";
-import { Link, Outlet, useNavigate, useParams } from "react-router-dom";
+import { Outlet, useNavigate, useParams } from "react-router-dom";
 
 const Buttons = () => {
   const navigate = useNavigate();

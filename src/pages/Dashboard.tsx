@@ -1,12 +1,28 @@
+import { Button, Title, TypographyStylesProvider } from "@mantine/core";
 import { Outlet, Link } from "react-router-dom";
 
 const Dashboard = () => {
   return (
     <div>
-      <h2>Dashboard</h2>
+      <Title mt={4} mb={4} order={3}>
+        Dashboard
+      </Title>
       <nav>
-        <Link to="profile">Profile</Link> | <Link to="settings">Settings</Link>{" "}
-        | <Link to="mantine">Mantine</Link>
+        <Link to="profile">
+          <Button ml={4} mr={4} variant="outline">
+            Profile
+          </Button>
+        </Link>
+        <Link to="settings">
+          <Button ml={4} mr={4} variant="outline">
+            Settings
+          </Button>
+        </Link>{" "}
+        <Link to="mantine">
+          <Button ml={4} mr={4} variant="outline">
+            Mantine
+          </Button>
+        </Link>
       </nav>
       <Outlet />
     </div>
